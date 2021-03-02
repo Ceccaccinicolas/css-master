@@ -1,0 +1,65 @@
+  /*
+    font-family: Arial, Helvetica, sans-serif; tipo de letra
+    font-size: 20px; tamaño de fuente
+    font-weight: bold (es tamaño normal en negrita);  grosor de letra 
+    font-style: italic; estilo de letra  font-style: oblique;  estilo de letra oblicua*/
+
+    /*text-transform: uppercase; te transforma la letra en mayuscula */
+    /*google fonts. para buscar tipos de fuentes */
+     /* background-image: url("audia5.jpg");
+  background-repeat: no-repeat; /*no repite la imagen
+  background-size: 100%;
+  background-attachment: fixed;/* para que el fondo quede fijo
+  background-position:left ;*/
+
+
+    /*color:darkblue;
+    background-color:darkgray;
+    text-align: justify; centra todo el texto bien alineado
+    line-height: 90px;  ajusta la altura de la linea
+    vertical-align: top;
+   */
+
+    
+/*  text-indent: 900px; deja un spacio entre ejemplo: parrafos
+ word-spacing: 30px;  deja un espacio entre palabras
+ letter-spacing: 40px;  deja un espacio entre letras*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#caja1,
+#caja2{
+    width: 250px;
+    height: 250px;
+     background-color: blue;
+     border: 5px solid orangered;
+     margin: 15px;
+}
+  
+.caja{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 240px;
+    margin: 20px;
+    padding: 60px;
+      width: 250px;
+    height: 250px;
+     background-color: blue;
+     border: 5px solid orangered;
+     margin: 15px;
+    float: left;
+    
+}
+.nofloat{
+    float: none;
+    clear: both;/* limpia todo lo flotado que este arriba*/
+}
+#cajas{
+    max-width: 1040px;
+    border: 2px solid black;
+}

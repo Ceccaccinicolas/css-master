@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid gray;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    text-align:center ;
+    background:rgba(7, 81, 141, 0.774);
+    color: whitesmoke;
+    line-height: 70px;
+}
+.clearfloat{
+    float: none;
+    clear: both;
+}
+
+#menu{
+     background-color: #eeeeee;
+
+ }
+#menu ul li{
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    border-right:1px solid #cccccc ; /* border rigth:  le hace un borde separador entre los "li"*/
+    
+}
+#menu ul li a{
+    display: block;
+    padding: 10px;
+    color: #444;
+}
+
+#menu ul li:hover {
+   background-color:rgba(5, 56, 99, 0.822);
+   cursor: pointer;
+}
+#menu ul li:hover a{
+    color:whitesmoke;
+}
+#contenido{
+    width: 69%;
+   
+    float: left;
+}
+#lateral{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border: 1px solid slateblue;
+    min-height: 500px;
+    overflow-y: scroll;
+}
+#contenido > h1{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    text-shadow: 0px 0px 8px blue ;
+
+}
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: orange;
+    text-align: center;
+    line-height: 220px;
+    color: whitesmoke;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+    box-shadow: 2px 5px 10px black inset;
+    border-radius: 100%;
+}
+#footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: cadetblue;
+    text-align: center;
+    border-top: 1 solid #444;
+    position: relative;
+}

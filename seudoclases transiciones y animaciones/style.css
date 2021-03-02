@@ -1,0 +1,33 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:first-child{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+} /*  li:first-child : es para seleccionar el primer hijo de la lista / last-child el ultimo sellecionai*/
+
+ul li:nth-child(3){
+     color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+}/* li:nth-child(3): es para seleccionar cualquiera de la lista li*/ 
+ 
+#mienlace{
+    color: crimson;
+    font-size: 30px;
+}
+#mienlace:link{
+    color: blue;
+}/* es para cambiar el color del enlace cuando lo presionas y dsp volves a entrar. primero se muestra de color blue y luego por seggunda vez se va a mostar en color rojo*/
+
+#mienlace:hover{
+   
+    color: darkgray;
+}
+#mienlace:active{
+    color: greenyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}/* mientras estas pulsando le da un estilo diferente*/ 
+/* seudoclase :focus es para que te cambie de estilo el elemento ej input*/
